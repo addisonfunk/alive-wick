@@ -1,0 +1,20 @@
+.col-xs-12 {
+	color: pink;
+}
+
+.col-sm-8 {
+	background-color: blue;
+}
+
+.col-md-6 {
+	background-color: yellow;
+}
+
+.col-lg-4 {
+	background-color: green;
+}
+
+.logo {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 4em;
+}
