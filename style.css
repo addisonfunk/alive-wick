@@ -1,20 +1,36 @@
-.col-xs-12 {
-	color: pink;
+
+a { color:grey } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:#33adff; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:#00cc66; }
+
+.fa {
+	color: grey;
+	margin: 10px;
+	letter-spacing: 20px; 
 }
 
-.col-sm-8 {
-	background-color: blue;
+.fa:hover {
+	color: black;
 }
 
-.col-md-6 {
-	background-color: yellow;
-}
-
-.col-lg-4 {
-	background-color: green;
-}
 
 .logo {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 4em;
+}
+
+.tagline {
+	font-family: 'Pompiere', cursive;
+	font-size: 1.5em;
+	letter-spacing: 5px; 
+}
+
+.grid {
+	width: 200px;
+	height: 200px;
 }
